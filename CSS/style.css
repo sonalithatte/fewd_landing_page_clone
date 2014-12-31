@@ -67,6 +67,7 @@ body
     background-size: cover;
     min-height: 60%;
     overflow:auto;
+    width:100%;
     }
 
 
@@ -87,7 +88,8 @@ body
     color:#838994;
 	font-size:16px;
 	margin-top: 25px;
-	padding-right: 100px;
+	padding-right: 10px;
+	margin-bottom: 20px;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -160,53 +162,108 @@ button
     background-color: #fff;
     overflow: hidden;
     padding-bottom: 5rem;
-}
+    
+   }
+
 .cases .content {
     margin-top: 7.875rem;
     padding: none;
     color: #1d1e21;
     text-align: center;
-
+    float:left;
+    display: inline-block;    
 }
 
  .cases h2 {
     font-size: 2.75rem;
-    text-align: center;
+   margin-left: 100px;
     font-weight: 300;
-    margin: 1.625rem 0 3.125rem;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-left: 20px;
+    
 
 }
  
-.cases .devices h3 {
+.cases .devices  h3 {
     font-weight: 300;
     font-size: 1.463rem;
-    margin: 2rem 2rem;
+
 }
 
-ul.devices
+
+.cases .devices p
+{
+	font-weight: 300;
+	font-size: 1.313 rem;
+	text-align: center;
+	padding-left: 25px;
+}
+ul 
 {
 	display:-webkit-box;
 	display: -moz-box;    
 	display: -ms-flexbox; 
 	display:-webkit-flex;
-	margin-left: 20rem;
-	margin-right: 20rem;
-	width:50%;
-	padding left:10px;
-	padding-right: 10px;
 	float:left;
 	display:flex;
 }
-ul 
+.devices
 {
-	display:display:-webkit-box;
-	display: -moz-box;    
-	display: -ms-flexbox; 
-	display:-webkit-flex;
-	margin-left: 20 rem;
-	margin-right: 20rem;
-	padding:2.5px;
+	margin-left: 20%;
 	float:left;
+	padding:0;
+}
+h5
+{
+	display:block;
+}
+.social
+{
+	background-color: #fff;
+	overflow:auto;
+	padding-bottom: 6.375rem;
+	text-align: center;
+}
+
+.social .copy
+{
+	font-size: 0.9rem;
+	font-weight: 300;
+	color:#838994;
+	text-align: center;
+}
+
+.social .icons>li
+{
+	border-radius:1.25rem;
+	width: 2.5rem;
+	height:2.5rem;
+	display:inline-block;
+	margin:1.25rem 5px;
+	border:1px solid #eaebec;
+	padding:0.625 rem 0;
+    text-align: center;
+    box-sizing:border-box;
+
+}
+
+.social hr
+{
+	border:0;
+	border-top:1px solid #eaebec;
+	margin: 1.313rem 0;
+}
+.social .twitter
+{
+	color:#55acee;
+}
+.social .facebook
+{
+	color: #4c66a4;
+}
+.social .instagram
+{
+	color: #3f729b;
 }
 
