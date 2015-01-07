@@ -58,6 +58,7 @@ table
 body
  {
     background-color: white;
+    width:100%;
 }
 .introduction 
 {
@@ -166,12 +167,10 @@ button
    }
 
 .cases .content {
-    margin-top: 7.875rem;
-    padding: none;
+    
     color: #1d1e21;
     text-align: center;
-    float:left;
-    display: inline-block;    
+       
 }
 
  .cases h2 {
@@ -205,14 +204,23 @@ ul
 	display: -moz-box;    
 	display: -ms-flexbox; 
 	display:-webkit-flex;
-	float:left;
-	display:flex;
+    display:flex;
 }
 .devices
 {
-	margin-left: 20%;
-	float:left;
-	padding:0;
+	
+	margin-left: 30%;
+	
+}
+
+.devices li { 
+display: inline-block;
+margin-right: 40px;
+}
+
+:nth-of-type()
+.devices li:nth-of-type(3) {
+margin-right: 0;
 }
 h5
 {
@@ -222,7 +230,7 @@ h5
 {
 	background-color: #fff;
 	overflow:auto;
-	padding-bottom: 6.375rem;
+	margin-left:auto;
 	text-align: center;
 }
 
@@ -234,19 +242,25 @@ h5
 	text-align: center;
 }
 
-.social .icons>li
+.social li
 {
-	border-radius:1.25rem;
-	width: 2.5rem;
-	height:2.5rem;
-	display:inline-block;
-	margin:1.25rem 5px;
+	border-radius:1.5rem;
+	width:1.5rem;
+	height:1.5rem;
+	display:inline-block; 
 	border:1px solid #eaebec;
-	padding:0.625 rem 0;
     text-align: center;
-    box-sizing:border-box;
 
 }
+.icons
+{
+	margin-left:47%;
+	margin-right: 47%;
+	overflow:auto;
+
+}
+
+
 
 .social hr
 {
